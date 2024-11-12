@@ -1,0 +1,2 @@
+# Starfarer
+Scala-based Game
