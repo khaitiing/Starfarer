@@ -2,7 +2,7 @@
 
 This project is an action-based game named Starfarer, where players have to collect the stars and avoid the asteroids for 30 seconds, 3 lives is given. Each star represents 10 points, the more stars collected, the more points players get. Ranking is shown at the end.
 
-<img src="./demo/Starfarer-demo.gif" alt="Demonstration of Starfarer"/>
+<img src="./demo/Starfarer_demo.gif" alt="Demonstration of Starfarer"/>
 
 ## Features
 ☄️ Single-player game
