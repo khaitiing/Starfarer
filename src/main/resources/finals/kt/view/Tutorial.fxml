@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" stylesheets="@Button.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finals.kt.view.tutorialController">
+   <children>
+      <ImageView fitHeight="643.0" fitWidth="841.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/menu_background.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="40.0" layoutY="28.0" mnemonicParsing="false" onAction="#getMenu" text="Back">
+         <font>
+            <Font name="Agency FB" size="14.0" />
+         </font>
+      </Button>
+      <Text layoutX="160.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Starfarer Tutorial">
+         <font>
+            <Font name="Agency FB Bold" size="90.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="#1bd8f7" />
+                  <Stop color="#e9e9e9" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="401.0" layoutX="44.0" layoutY="198.0" stroke="WHITE" strokeType="INSIDE" width="758.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="DARKCYAN" />
+                  <Stop color="#f2ffff" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="60.0" layoutY="223.0" text="Welcome to Starfarer!">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="253.0" prefHeight="57.0" prefWidth="731.0" text="Get ready to embark on an interstellar adventure where you’ll be shooting down the meteroids. Here’s a &#10;quick guide on how to play:">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="313.0" text="Objectives:">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="343.0" prefHeight="57.0" prefWidth="731.0" text="Your goal is to survive from the asteroids, avoid the dropping asteroids and collect the dropping stars&#10;to earn points in 30 seconds!">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="403.0" text="Controls:">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="433.0" prefHeight="22.0" prefWidth="731.0" text="Move Left/Right: Use the Arrow Keys to move your spaceship horizontally across the screen.">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="463.0" text="Tips:">
+         <font>
+            <Font name="Agency FB Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="493.0" prefHeight="86.0" prefWidth="731.0" text="- Stay Mobile: Keep moving to avoid enemy fire and stay out of danger.&#10;- Practice Makes Perfect: The more you play, the better you’ll become at dodging attacks and defeating &#10;   enemies.">
+         <font>
+            <Font name="Agency FB" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

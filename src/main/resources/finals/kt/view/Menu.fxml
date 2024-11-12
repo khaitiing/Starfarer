@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" stylesheets="@Button.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finals.kt.view.menuController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/menu_background.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="165.0" layoutY="160.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="2.0" text="STARFARER" textAlignment="CENTER">
+         <font>
+            <Font name="Agency FB Bold" size="120.0" />
+         </font>
+         <effect>
+            <DropShadow offsetX="2.0" offsetY="3.0" />
+         </effect>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.4190475827171689">
+               <stops>
+                  <Stop color="#1bd8f7" />
+                  <Stop color="#e9e9e9" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <Button layoutX="318.0" layoutY="210.0" mnemonicParsing="false" onAction="#getRanking" prefHeight="54.0" prefWidth="156.0" text="Enter Game" textAlignment="CENTER" />
+      <Button layoutX="318.0" layoutY="300.0" mnemonicParsing="false" onAction="#getTutorial" prefHeight="54.0" prefWidth="156.0" text="Tutorial" textAlignment="CENTER" />
+      <Button layoutX="318.0" layoutY="390.0" mnemonicParsing="false" onAction="#getCredits" prefHeight="54.0" prefWidth="156.0" text="Credits" textAlignment="CENTER" />
+      <Button layoutX="318.0" layoutY="480.0" mnemonicParsing="false" onAction="#toExit" prefHeight="54.0" prefWidth="156.0" text="Exit Game" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

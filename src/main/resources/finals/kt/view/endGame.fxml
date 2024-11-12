@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finals.kt.view.endGameController">
+   <children>
+      <Label layoutX="40.0" layoutY="35.0" text="GAME OVER">
+         <font>
+            <Font name="Agency FB Bold" size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="usernameLabel" layoutX="45.0" layoutY="164.0" text="Player">
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" layoutX="45.0" layoutY="213.0" text="Your score:">
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeUpLabel" layoutX="45.0" layoutY="262.0" text="TIME IS UP!">
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="timerLabel" layoutX="45.0" layoutY="262.0" text="You ended in 00 seconds">
+         <font>
+            <Font name="Agency FB" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

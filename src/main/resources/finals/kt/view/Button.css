@@ -1,0 +1,21 @@
+.button {
+    -fx-padding: 10 30 10 30;
+    -fx-background-radius: 5;
+    -fx-background-color: linear-gradient(#008b8b, #00cde1);
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-border-color: #00a693;
+    -fx-effect: dropshadow(gaussian, #88d8c0, 1, 1, 0, 6);
+    -fx-font-family: "Agency FB", sans-serif, Helvetica, Arial;
+    -fx-font-size: 18pt;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#76e5fc, #89cff0);
+}
+
+.button:pressed {
+    -fx-effect: dropshadow(gaussian, #48d1cc, 1, 1, 0, 3);
+    -fx-translate-y: 3px;
+}

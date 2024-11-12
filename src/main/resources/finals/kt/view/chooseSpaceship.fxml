@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finals.kt.view.chooseSpaceshipController">
+   <children>
+      <ImageView fitHeight="760.0" fitWidth="806.0" layoutX="-2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/menu_background.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="50.0" layoutY="50.0" text="CHOOSE YOUR SPACESHIP" textFill="WHITE">
+         <font>
+            <Font name="Agency FB Bold" size="80.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="368.0" layoutX="50.0" layoutY="174.0" stroke="BLACK" strokeType="INSIDE" width="712.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="DARKCYAN" />
+                  <Stop color="#f2ffff" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fx:id="spaceship1" fitHeight="300.0" fitWidth="300.0" layoutX="84.0" layoutY="210.0" onMouseClicked="#handleSpaceshipSelection" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/spaceship1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="spaceship2" fitHeight="300.0" fitWidth="300.0" layoutX="254.0" layoutY="210.0" onMouseClicked="#handleSpaceshipSelection" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/spaceship2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="spaceship3" fitHeight="300.0" fitWidth="300.0" layoutX="422.0" layoutY="210.0" onMouseClicked="#handleSpaceshipSelection" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/spaceship3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="spaceship4" fitHeight="300.0" fitWidth="300.0" layoutX="589.0" layoutY="210.0" onMouseClicked="#handleSpaceshipSelection" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/spaceship4.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
